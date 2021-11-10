@@ -2,7 +2,7 @@
 
 ## Lancement
 ### Installation des requirement -> flask et requests
-- pip install requirement.txt
+- pip install -r requirement.txt
 ### Lancer serveur
 - python server.py
 ### Ouvrir url
