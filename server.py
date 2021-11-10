@@ -7,6 +7,8 @@ app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 # Methode responsable du render de la l'index
 def home():
+    current_station_name = ""
+    current_schedules= ""
     current_stations = callLigne(1)
     if request.method == "POST":
         current_station_slug = request.form.get("station")
