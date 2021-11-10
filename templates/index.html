@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Ferway</title>
+    <link rel="stylesheet" href="/static/css/import.css">
+</head>
+<body>
+  <form method="POST">
+    <div class="form_fieldset">
+      <label for="station" class="form_label">Liste (dynamique) des stations de la ligne 1:</label><br>
+      <select name="station" id="station" class="form_input form_select">
+        <option value="default">Choisir une option...</option>
+        {% for station in stations %}
+          <option value="{{ station['slug'] }}">{{ station['name'] }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="form_fieldset">
+      <input
+        class="form_submit form_input"
+        type="submit"
+        value="Afficher les informations"
+      />
+    </div>
+  </form>
+
+  <h2>Résultats pour {{ station }}</h2>
+  {% for schedule in schedules %}
+      <p>Direction: {{ schedule["destination"] }}</p>
+      <p>Informations: {{ schedule["message"] }}</p><br>
+  {% endfor %}
+</body>
+</html>
