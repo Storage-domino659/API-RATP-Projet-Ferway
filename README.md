@@ -18,3 +18,4 @@ Pas de problème majeur lors de la création du projet, la logique était assez 
 ### Evolutions
 Rajouter un bouton permettant de changer de ligne de métro, il pourra ensuite utiliser les fonctions déjà implémenté qui permettront de changer le contenu du select dynamiquement.
 Rendre le code plus robuste en utilisant de l'orienté objet.
+Ainsi que des codes d'erreur et une page adaptée si la requête n'aboutit pas.
