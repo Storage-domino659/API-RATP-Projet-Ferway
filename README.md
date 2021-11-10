@@ -6,7 +6,6 @@
 ### Lancer serveur
 - python server.py
 ### Ouvrir url
->>>>>>> d89181b0ef9dff77f9019e4b5e2670a97f8ddfe2
 - http://127.0.0.1:5000/
 
 ## Lien
@@ -20,4 +19,3 @@ Pas de problème majeur lors de la création du projet, la logique était assez 
 Rajouter un bouton permettant de changer de ligne de métro, il pourra ensuite utiliser les fonctions déjà implémenté qui permettront de changer le contenu du select dynamiquement.
 Rendre le code plus robuste en utilisant de l'orienté objet.
 Ainsi que des codes d'erreur et une page adaptée si la requête n'aboutit pas.
-
