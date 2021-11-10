@@ -1,11 +1,11 @@
 # Projet-Ferway
 
 ## Lancement
-Installation des requirement -> flask et requests
+### Installation des requirement -> flask et requests
 - pip install requirement.txt
-Lancer serveur
+### Lancer serveur
 - python server.py
-Ouvrir url
+### Ouvrir url
 - http://127.0.0.1:5000/
 
 ## Lien
